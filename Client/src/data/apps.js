@@ -1,0 +1,96 @@
+export const apps = [
+  {
+    id: 'twitch',
+    name: 'Twitch',
+    description: 'Live streaming',
+    category: 'Entertainment',
+    url: 'https://twitch.tv',
+    tags: ['stream', 'gaming', 'live'],
+    widgets: [
+      { id: 'following-live', title: 'Live channels', type: 'metric', content: '0 live' },
+      { id: 'browse', title: 'Browse', type: 'link', content: 'Discover streams' },
+    ],
+  },
+  {
+    id: 'youtube',
+    name: 'YouTube',
+    description: 'Video platform',
+    category: 'Entertainment',
+    url: 'https://youtube.com',
+    tags: ['video', 'google'],
+    widgets: [
+      { id: 'subs', title: 'New from subscriptions', type: 'metric', content: '—' },
+      { id: 'watch-later', title: 'Watch Later', type: 'metric', content: '—' },
+    ],
+  },
+  {
+    id: 'gmail',
+    name: 'Gmail',
+    description: 'Email and communication',
+    category: 'Communication',
+    url: 'https://mail.google.com',
+    tags: ['email', 'google'],
+    widgets: [
+      { id: 'inbox', title: 'Inbox', type: 'metric', content: '23 unread' },
+      { id: 'compose', title: 'Quick Compose', type: 'link', content: 'Open compose window' },
+    ],
+  },
+  {
+    id: 'twitter',
+    name: 'X (Twitter)',
+    description: 'Microblogging & trending topics',
+    category: 'Social',
+    url: 'https://twitter.com',
+    tags: ['social', 'news'],
+    widgets: [
+      { id: 'notifications', title: 'Notifications', type: 'metric', content: '—' },
+      { id: 'trending', title: 'Trending', type: 'text', content: '—' },
+    ],
+  },
+  {
+    id: 'dpm',
+    name: 'DPM',
+    description: 'Your DPM portal',
+    category: 'School',
+    url: '',
+    tags: ['school'],
+    widgets: [
+      { id: 'todo', title: 'Tasks', type: 'text', content: '—' },
+    ],
+  },
+  {
+    id: 'linkedin',
+    name: 'LinkedIn',
+    description: 'Professional network',
+    category: 'Social',
+    url: 'https://www.linkedin.com',
+    tags: ['career', 'social'],
+    widgets: [
+      { id: 'messages', title: 'Messages', type: 'metric', content: '—' },
+      { id: 'alerts', title: 'Alerts', type: 'metric', content: '—' },
+    ],
+  },
+  {
+    id: 'github',
+    name: 'GitHub',
+    description: 'Code hosting and collaboration',
+    category: 'Development',
+    url: 'https://github.com',
+    tags: ['code', 'git'],
+    widgets: [
+      { id: 'prs', title: 'PRs to review', type: 'metric', content: '2 pending' },
+      { id: 'issues', title: 'My issues', type: 'metric', content: '—' },
+    ],
+  },
+  {
+    id: 'myefrei',
+    name: 'MyEfrei',
+    description: 'EFREI student portal',
+    category: 'School',
+    url: 'https://my.efrei.fr',
+    tags: ['school', 'campus'],
+    widgets: [
+      { id: 'agenda', title: 'Agenda', type: 'text', content: '—' },
+    ],
+  },
+]

@@ -1,9 +1,2 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+// Migrated to JavaScript entry. Use main.jsx as the app entry point.
+export { };
